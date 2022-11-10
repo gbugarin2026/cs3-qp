@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <style>
+    header {
+      background-color:#f6f5f3;
+      display: flex;
+      flex-direction: row;
+    }
+    header::after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    body {
+      width: 1350px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color:#f6f5f3;
+    }
+    .title {
+      font-family: 'DM Serif Display', serif;
+      float: left;
+    }
+    .navbar {
+      width: 90%;
+      margin: 0 auto;
+    }
+    nav {
+      float: right;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 36px;
+      padding-bottom: 10px;
+      position: relative;
+      font-size: 15px;
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    nav a {
+      color: black;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color:#986C4A;
+      transition: all ease-in-out 250ms;
+    }
+    .title2 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      margin-bottom: 20px;
+    }
+    .block9 {
+      display: flex;
+      flex-direction: row;
+    }
+    .text2 {
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 30px;
+      margin-left: 50px;
+      margin-right: 100px;
+      margin-top: 80px;
+    }
+    .embed1 {
+      margin-left: 100px;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 class="title"><u>Ben&Ben</u></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html"><b>HOME</b></a></li>
+            <li><a href="about.html"><b>ABOUT</b></a></li>
+            <li><a href="recommendations.html"><b>RECOMMENDATIONS</b></a></li>
+            <li><a href="aboutme.html"><b>ABOUT THE AUTHOR</b></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="title2">
+      <img class="img8" alt="img8" src="8.png">
+    </div>
+    <div class="block9">
+      <iframe class="embed1" style="border-radius:12px" src="https://open.spotify.com/embed/artist/4DAcJXcjX0zlQAZAPAx4Zb?utm_source=generator&theme=0" width="1000" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <p class="text2">Want to give them a listen? Worry not! Right here is their Spotify account and a few of their songs along!</p>
+    </div>
+  </body>
+</html>

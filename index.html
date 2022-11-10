@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nanum+Gothic&display=swap" rel="stylesheet">
+  <style>
+    header {
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+    }
+    header::after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+    a:link {
+      text-decoration: none;
+    }
+    body {
+      width: 1350px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .title {
+      font-family: 'DM Serif Display', serif;
+      float: left;
+    }
+    .navbar {
+      width: 90%;
+      margin: 0 auto;
+    }
+    nav {
+      float: right;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 36px;
+      padding-bottom: 10px;
+      position: relative;
+      font-size: 15px;
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    nav a {
+      color: black;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color:#986C4A;
+      transition: all ease-in-out 250ms;
+    }
+    .block1 {
+      background-image: url(1.png);
+      background-size: cover;
+      background-repeat: none;
+      padding-top: 270px;
+      padding-bottom: 30px;
+      padding-left: 200px;
+      padding-right: 200px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .img1 {
+      height: 350px;
+      width: auto;
+      margin-left: 30px;
+    }
+    .block2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 30px;
+      background-color: white;
+      padding: 10px 70px;
+      text-align: center;
+    }
+    .block3 {
+      display: flex;
+      flex-direction: row;
+    }
+    .about {
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 8px;
+    }
+    .about1 {
+      margin-left: 210px;
+      margin-bottom: 30px;
+      color: #986C4A;
+    }
+    .img2 {
+      margin-bottom: 10px;
+      margin-left: 50px;
+    }
+    .recommendations {
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 8px;
+    }
+    .recommendations1 {
+      margin-left: 180px;
+      margin-bottom: 30px;
+      color:#986C4A;
+    }
+    .img3 {
+      width: 373px;
+      height: 257px;
+      margin-left: 70px;
+    }
+    .aboutme {
+      font-family: 'Nanum Gothic', sans-serif;
+      font-size: 8px;
+    }
+    .aboutme1 {
+      margin-left: 180px;
+      margin-bottom: 30px;
+      color:#986C4A;
+    }
+    .img4 {
+      width: 373px;
+      height: 257px;
+      margin-left: 70px;
+    }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 class="title"><u>Ben&Ben</u></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html"><b>HOME</b></a></li>
+            <li><a href="about.html"><b>ABOUT</b></a></li>
+            <li><a href="recommendations.html"><b>RECOMMENDATIONS</b></a></li>
+            <li><a href="aboutme.html"><b>ABOUT THE AUTHOR</b></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="block1">
+      <div class="block2">
+        <p>All will be alright in time.</p>
+      </div>
+    </div>
+    <div class="block3">
+      <div class="block4">
+        <div class="about">
+          <h1 class="about1">ABOUT</h1>
+          <a href="about.html">
+            <img class="img2" alt="img2" src="2.png">
+          </a>
+        </div>  
+      </div>
+      <div class="block5">
+        <div class="recommendations">
+          <h1 class="recommendations1">RECOMMENDATIONS</h1>
+            <a href="recommendations.html">
+              <img class="img3" alt="img3" src="3.png">
+            </a>
+        </div>
+      </div>
+      <div class="block6">
+        <div class="aboutme">
+          <h1 class="aboutme1">ABOUT THE AUTHOR</h1>
+            <a href="aboutme.html">
+              <img class="img4" alt="img4" src="4.png">
+            </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
